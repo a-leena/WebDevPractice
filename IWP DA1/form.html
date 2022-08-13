@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up</title>
+    <style>
+        body
+        {
+            background-image:url('Images/movies.jpg');
+            color:white;
+        }
+        fieldset
+        {
+            border:8px solid black;
+            border-radius:20px;
+            width:fit-content;
+            margin:10px 50px 10px 50px;
+            float:right;
+            background-color:dimgray;
+            font-weight:bold;
+        }
+        div {
+            border: none;
+            margin: 20px;
+        }
+        input,textarea
+        {
+            border: 1px solid darkslategray;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        #email,#fname,#lname
+        {
+            width:150px;
+            height:20px;
+            margin-right:20px;
+        }
+        #fn 
+        {
+            border:none;
+            margin-right:85px;
+        }
+        sup
+        {
+            color: red;
+        }
+    </style>
+</head>
+
+<body style="font-family:sans-serif">
+    <div>
+        <a href="index.html" target="_blank"><button style="border:5px solid white; border-radius:10px; background-color:white; padding:5px"><b>Home</b></button></a>
+    </div>
+    <form name="signup" action="#">
+        <fieldset>
+            <div id="emailDiv">
+                <label for="email">Email Address <sup>*</sup></label><br>
+                <input type="email" id="email" name="emailid" placeholder="Email ID" required>
+            </div>
+
+            <div id="nameDiv">
+                <label id="fn" for="fname">First Name <sup>*</sup></label>
+                <label id="ln" for="lname">Last Name</label> <br>
+                <input type="text" id="fname" name="firstname" placeholder="First name" required>
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
+            </div>
+
+
+            <div id="actorDiv">
+                <label for="actors">Top 5 Actors of your choice <sup>*</sup></label><br>
+                <textarea placeholder="Actor names" id="actors" name="actors" rows="5px" cols="20px" required></textarea>
+            </div>
+            <div id="genreDiv">
+                <label for="genres">Top 5 Movie Genres of your choice</label><br>
+                <textarea placeholder="Movie genres" id="genres" name="genres" rows="5px" cols="20px"></textarea>
+            </div>
+            <div style="float:right; margin-top:0px">
+                <button type="submit" style="border-radius:5px; border:4px solid white; background-color:white;"><b>Register</b></button>
+            </div>
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>
