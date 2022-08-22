@@ -1,0 +1,115 @@
+body {
+    font-family:'Segoe UI';
+    background-color: #ffffb3;
+    border: 5px solid black;
+    border-top: 10px solid #256310;
+}
+main {
+    padding: 10px;
+}
+h1 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    padding: 10px 27px;
+}
+li {
+    float: left;
+}
+#paras {
+    width: 850px;
+    padding-right: 30px;
+}
+#gg {
+    border-radius: 50%;
+    width: 240px;
+    height: 220px; 
+    padding: 40px 20px 50px 20px;
+}
+
+section {
+    border: 3px solid #256310;
+    border-radius: 15px;
+    width: 280px;
+    height: 525px;
+    text-align: justify;
+    margin: 10px 27px;
+    padding: 5px 25px;
+    background-color: white;
+    float: left;
+    padding: 10px 27px;
+}
+section img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 100px;
+    padding: 5px;
+}
+section h3 {
+    text-transform: capitalize;
+}
+section a {
+    text-decoration: none;
+}
+
+aside {
+    float: left;
+    background-color:white;
+    margin: 10px 0px 30px 0px;
+    height: 300px;
+}
+#loveweb {
+    width: 780px;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+#loveweb h3 {
+    text-transform: capitalize;
+    padding: 10px;
+}
+#loveweb p {
+    padding: 10px 30px;
+    text-indent: 70px;
+    text-align: justify;
+}
+#loveweb p span {
+    font-weight: bold;
+    font-style:italic;
+}
+#articles {
+    width: 280px;
+    border: 3px solid #256310;
+    border-radius: 100px 15px;
+    text-align: center;
+}
+#articles article {
+    margin: 20px;
+    height:max-content;
+    border-bottom: 2px inset gray;
+    padding-bottom: 10px;
+}
+#articles #a3 {
+    border:none;
+}
+
+footer {
+    clear: both;
+    border:none;
+    background-color: #256310;
+    margin: 30px 10px 0px 10px;
+    padding: 10px 50px;
+    font-weight: bold;
+    color: white;
+    line-height: 10px;
+}
+
