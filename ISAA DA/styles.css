@@ -1,0 +1,9 @@
+input {
+    display: block;
+    width: 250px;
+}
+
+.checkbox {
+    display:inline;
+    width:auto;
+}

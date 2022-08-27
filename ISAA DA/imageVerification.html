@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Verification</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width;initial-scale:1">
+    <meta name="author" content="Aleena">
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body class="welcome" onload="getIndex()">
+    <h1>Image Verification</h1>
+    <p class="imageID">Select one of the following images</p>
+        <table>
+            <tr>
+                <td colspan="3" style="text-align:center">Double click to select</td>
+            </tr>
+            <tr>
+                <td><input type="image" src="images/lamb.jpg" alt="lamb" id="1" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/cat.jpg" alt="cat" id="2" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/dog.jpg" alt="dog" id="3" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+            </tr>
+            <tr>
+                <td><input type="image" src="images/panda.jpg" alt="panda" id="4" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/monkey.jpg" alt="monkey" id="5" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/lion.jpg" alt="lion" id="6" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+            </tr>
+            <tr>
+                <td><input type="image" src="images/tiger.jpg" alt="tiger" id="7" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/squirrel.jpg" alt="squirrel" id="8" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+                <td><input type="image" src="images/chickens.jpg" alt="chicks" id="9" class="imgButton" width="250px" height="200px" onclick="getImageID(id,2)"></td>
+            </tr>
+        </table>
+        <p id="notSelected">Please select an image</p>
+</body>
+
+</html>
