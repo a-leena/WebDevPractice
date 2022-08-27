@@ -148,7 +148,7 @@ function getImageID(a, n) {
             var index = document.querySelector(".welcome").id;
             if (imgID == user_info[index].imageID) {
                 window.alert("Correct selection! Proceed to Password Verification");
-                var url = 'https://a-leena.github.io/WebDevPractice/ISAA%20DA/passwordCheck.htmlindex=' + encodeURIComponent(index);
+                var url = 'https://a-leena.github.io/WebDevPractice/ISAA%20DA/passwordCheck.html?index=' + encodeURIComponent(index);
                 document.location.href = url;
                 window.open("passwordCheck.html", '_blank');
             }
