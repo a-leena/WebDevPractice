@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <script type="text/javascript" src="scripts.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td id="tb" colspan="2">
+                    <p id="prev"></p>
+                    <p id="textbox"></p>
+                </td>
+                <td id="bs" onclick="takeInput(id)">&larr;</td>
+                <td id="Cl" onclick="takeInput(id)">Cl</td>
+            </tr>
+            <tr>
+                <td id="/" onclick="takeInput(id)">/</td>
+                <td id="7" onclick="takeInput(id)">7</td>
+                <td id="8" onclick="takeInput(id)">8</td>
+                <td id="9" onclick="takeInput(id)">9</td>
+            </tr>
+            <tr>
+                <td id="*" onclick="takeInput(id)">x</td>
+                <td id="4" onclick="takeInput(id)">4</td>
+                <td id="5" onclick="takeInput(id)">5</td>
+                <td id="6" onclick="takeInput(id)">6</td>
+            </tr>
+            <tr>
+                <td id="-" onclick="takeInput(id)">-</td>
+                <td id="1" onclick="takeInput(id)">1</td>
+                <td id="2" onclick="takeInput(id)">2</td>
+                <td id="3" onclick="takeInput(id)">3</td>
+            </tr>
+            <tr>
+                <td id="+" onclick="takeInput(id)">+</td>                
+                <td id="0" onclick="takeInput(id)">0</td>
+                <td id="." onclick="takeInput(id)">.</td>
+                <td id="=" onclick="takeInput(id)">=</td>
+            </tr>   
+        </table>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  margin: 2.5% 35% 2.5% 35%;
+  font-size: 25px;
+  font-family:Arial;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+#tb {
+    background-color: white;
+    line-height: 10px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gainsboro;
+}
+
+#\+, #\*, #\-, #\/{
+    background-color:black;
+    color: white;
+    border-color: white black white black;
+}
+#\=, #Cl, #bs {
+    background-color:black;
+    color: white; 
+}
+#bs {
+    border-right-color: white;
+}
+
+#\/ {
+    border-top-color: black;
+}
+#\+ {
+    border-bottom-color: black;
+}
+td:hover {
+    border: 5px solid black;
+}
+
+#tb:hover {
+    border: none;
+}
+
+#\+, #\*, #\-, #\/, #\=, #Cl, #bs:hover {
+    border-width: 1px;
+}
+
+#prev {
+    color: dimgrey;
+}
+
+#textbox {
+    font-weight: bold;
+}
