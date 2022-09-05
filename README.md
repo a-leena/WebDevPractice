@@ -5,3 +5,5 @@
 [My ePortfolio](https://a-leena.github.io/WebDevPractice/IWP%20DA2/)
 ### 3. 3-Step Authentication Website
 [3-Step Authentication](https://a-leena.github.io/WebDevPractice/ISAA%20DA/)
+### 4. Simple Calculator
+[Calculator](https://a-leena.github.io/WebDevPractice/Calculator/)
